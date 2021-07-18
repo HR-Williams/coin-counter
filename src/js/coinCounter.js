@@ -1,4 +1,5 @@
 export default function coinCounter(amount) {
-  return "an amount";
+  const dollars = Math.trunc(amount)
+  return `dollar bills = ${dollars}`;
 }
 
